@@ -1,0 +1,219 @@
+.navbar-nav .nav-link.active {
+    color: #17a2b8 !important; 
+    background-color: #3f4449;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px #17a2b8;
+    font-weight: bold;
+}
+.navbar-nav .nav-link.active:hover {
+    background-color: #253a3d;
+}
+.navbar {
+    border-bottom: 3px solid #3f444918; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+.navbar-brand {
+    background-color: #3f4449;
+    border-radius: 7px;
+    margin-left: 40px;
+    padding: 20px;
+    box-shadow: 0 4px 4px white;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    background-color: #646768;
+}
+.navbar-nav .nav-link {
+    color: rgb(255, 60, 0) !important;
+    border-radius: 5px;
+    background-color: #3f4449;
+    margin: 5px;
+    box-shadow: 0 4px 4px rgb(255, 94, 0);
+    font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+    background-color: rgb(92, 61, 43);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero-section {
+    background-image: url('https://img.freepik.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 900px; 
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 3px #3f4449;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5722; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px #3f4449;
+    text-decoration-line: none;
+}
+.button:hover {
+    background-color: #e64a19; 
+}
+.hero-section {
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    text-shadow:2px 2px 2px black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content {
+    text-align: center;
+    justify-items: center;
+}
+.menu-section {
+    padding: 60px 20px;
+    background-color: #a158283d; 
+    text-align: center;
+    justify-content: center;
+}
+
+.menu-section h2 {
+    font-size: 80px;
+    color: #333;
+    margin-bottom: 40px;  
+    text-shadow:2px 4px 8px #3f4449;
+}
+.menu-grid {
+    display: grid;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.menu-item {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.479);
+}
+
+.menu-item:hover {
+    background-color: #c0c3c4;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 230px; 
+    object-fit: cover; 
+    border-radius: 30px;
+}
+
+.item-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.item-details h3 {
+    color: #ff5722; 
+    margin-bottom: 5px;
+    text-shadow:0 4px 4px #cc521afd;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-shadow:0 0 2px #3f4449;
+}
+
+.price {
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5722; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 7px 7px #3f4449;
+    text-decoration-line: none;
+    text-shadow:2px 2px 2px #646768;
+}
+.price:hover {
+    background-color: #b84522d8;
+}
+.form-box {
+  max-width: 800px;
+  background: #f1f7fe;
+  border-radius: 25px;
+  color: #010101;
+  margin-left: 30%;
+  background-color: #36322c6b;
+  box-shadow:5px 5px 5px #333;
+}
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow:0 4px 4px #333;
+}
+.subtitle {
+  color: #494949;
+  font-weight: bold;
+  text-shadow:0 2px 4px #333;
+}
+.form-container {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 2px 4px 8px #333;
+}
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #afaeae;
+  padding: 8px 15px;
+}
+.form-section a {
+  font-weight: bold;
+  color: #000000;
+}
+.form button {
+  background-color: #000000;
+  color: #fff;
+  border-radius: 24px;
+  padding: 10px;
+  font-weight: bold;
+}
+.form button:hover {
+  background-color: #ee650a;
+}
+#message {
+    background: none;
+  border: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  padding: 8px 15px;
+}
+.form-box:hover {
+    background-color: #d6d6d6b6;
+}
