@@ -202,6 +202,7 @@
   border-radius: 24px;
   padding: 10px;
   font-weight: bold;
+  box-shadow:0 4px 4px#010101;
 }
 .form button:hover {
   background-color: #ee650a;
@@ -216,4 +217,10 @@
 }
 .form-box:hover {
     background-color: #d6d6d6b6;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
 }
